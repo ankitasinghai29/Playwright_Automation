@@ -1,15 +1,21 @@
 import { defineConfig} from '@playwright/test';
 
-
 export default defineConfig({
+  testDir: './tests',
   testMatch:["tests/login.spec.ts"],
   use: {
-    headless:false,
-    screenshot:"on",
+    headless:false,  //
+    screenshot:"on",  // attach screenshot with report and save in the test-results folder
     video:{
       mode:'on'
     }
   },
+
+  /*use to create report file 
+  1. dot (single green dot if tc pass or red dot if tc fail)
+  2. json file
+  3. html file (always open either pass or fail)
+  */
   reporter:[["dot"],["json",{outputFile:"jsonReports/report1.json"}],["html",{open:"always"}]]
 });
 

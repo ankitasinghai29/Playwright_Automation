@@ -1,0 +1,17 @@
+{
+  "name": "playwright_ws_ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run_tests":"npx playwright test",
+    "open_tests":"npx playwright test --ui"
+  },
+  "keywords": [],
+  "author": "Ankita",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.4"
+  }
+}

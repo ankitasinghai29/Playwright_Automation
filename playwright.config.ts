@@ -1,12 +1,12 @@
 import { defineConfig} from '@playwright/test';
 
 export default defineConfig({
-  testDir: './tests',
+  testDir: './tests',       //selecting test script folder
   testMatch:["tests/login.spec.ts"],
   use: {
-    headless:false,  //
-    screenshot:"on",  // attach screenshot with report and save in the test-results folder
-    video:{
+    headless:false,        // apply headless-false to all scripts (open browser for all)
+    screenshot:"on",      // attach screenshot with report and save in the test-results folder
+    video:{              // attach video with report and save in the test-results folder
       mode:'on'
     }
   },

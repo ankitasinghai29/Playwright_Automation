@@ -2,7 +2,7 @@ import { defineConfig} from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',       //selecting test script folder
-  testMatch:["tests/basicInteraction.spec.ts"],
+  //testMatch:["tests/basicInteraction.spec.ts"],
   use: {
     headless:false,        // apply headless-false to all scripts (open browser for all)
     screenshot:"on",      // attach screenshot with report and save in the test-results folder

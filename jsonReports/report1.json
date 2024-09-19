@@ -48,7 +48,7 @@
         "testDir": "D:/Playwright_Materials/Playwright_WS_TS/tests",
         "testIgnore": [],
         "testMatch": [
-          "tests/basicInteraction.spec.ts"
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
         "timeout": 30000
       }
@@ -61,13 +61,13 @@
   },
   "suites": [
     {
-      "title": "basicInteraction.spec.ts",
-      "file": "basicInteraction.spec.ts",
+      "title": "alert.spec.ts",
+      "file": "alert.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Interaction with Input",
+          "title": "handling model alert",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,69 +81,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2429,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Hi Playwright\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-09-18T10:47:23.059Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\Playwright_Materials\\Playwright_WS_TS\\test-results\\basicInteraction-Interaction-with-Input\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "D:\\Playwright_Materials\\Playwright_WS_TS\\test-results\\basicInteraction-Interaction-with-Input\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "858c3805beb352e7e346-3464ba74a1a18e483b42",
-          "file": "basicInteraction.spec.ts",
-          "line": 3,
-          "column": 5
-        },
-        {
-          "title": "sum",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 2553,
+                  "duration": 4396,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-09-18T10:47:25.814Z",
+                  "startTime": "2024-09-19T10:00:46.402Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\Playwright_Materials\\Playwright_WS_TS\\test-results\\basicInteraction-sum\\test-finished-1.png"
+                      "path": "D:\\Playwright_Materials\\Playwright_WS_TS\\test-results\\alert-handling-model-alert\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "D:\\Playwright_Materials\\Playwright_WS_TS\\test-results\\basicInteraction-sum\\video.webm"
+                      "path": "D:\\Playwright_Materials\\Playwright_WS_TS\\test-results\\alert-handling-model-alert\\video.webm"
                     }
                   ]
                 }
@@ -151,62 +104,19 @@
               "status": "expected"
             }
           ],
-          "id": "858c3805beb352e7e346-f717f5f87fac13f60860",
-          "file": "basicInteraction.spec.ts",
-          "line": 13,
-          "column": 5
-        },
-        {
-          "title": "checkbox",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 2043,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-09-18T10:47:28.393Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\Playwright_Materials\\Playwright_WS_TS\\test-results\\basicInteraction-checkbox\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "D:\\Playwright_Materials\\Playwright_WS_TS\\test-results\\basicInteraction-checkbox\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "858c3805beb352e7e346-8a782f746d234e6f0ca1",
-          "file": "basicInteraction.spec.ts",
-          "line": 28,
-          "column": 5
+          "id": "60b6c5dc7a2ab7a519df-3fe6f16bf10a81078fc2",
+          "file": "alert.spec.ts",
+          "line": 63,
+          "column": 6
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-09-18T10:47:22.118Z",
-    "duration": 8658.751,
-    "expected": 3,
+    "startTime": "2024-09-19T10:00:45.458Z",
+    "duration": 6174.451,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

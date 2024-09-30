@@ -61,13 +61,13 @@
   },
   "suites": [
     {
-      "title": "alert.spec.ts",
-      "file": "alert.spec.ts",
+      "title": "dropdown.spec.ts",
+      "file": "dropdown.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "handling model alert",
+          "title": "bootstrap dropdown",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,22 +81,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 4396,
+                  "duration": 12918,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-09-19T10:00:46.402Z",
+                  "startTime": "2024-09-30T10:47:17.668Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\Playwright_Materials\\Playwright_WS_TS\\test-results\\alert-handling-model-alert\\test-finished-1.png"
+                      "path": "D:\\Playwright_Materials\\Playwright_WS_TS\\test-results\\dropdown-bootstrap-dropdown\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "D:\\Playwright_Materials\\Playwright_WS_TS\\test-results\\alert-handling-model-alert\\video.webm"
+                      "path": "D:\\Playwright_Materials\\Playwright_WS_TS\\test-results\\dropdown-bootstrap-dropdown\\video.webm"
                     }
                   ]
                 }
@@ -104,9 +104,9 @@
               "status": "expected"
             }
           ],
-          "id": "60b6c5dc7a2ab7a519df-3fe6f16bf10a81078fc2",
-          "file": "alert.spec.ts",
-          "line": 63,
+          "id": "26e243c9a3d273e4cdec-c5c2387a1904777fefd5",
+          "file": "dropdown.spec.ts",
+          "line": 45,
           "column": 6
         }
       ]
@@ -114,8 +114,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-09-19T10:00:45.458Z",
-    "duration": 6174.451,
+    "startTime": "2024-09-30T10:47:16.658Z",
+    "duration": 14987.497000000001,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

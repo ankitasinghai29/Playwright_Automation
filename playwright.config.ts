@@ -6,8 +6,10 @@ export default defineConfig({
   use: {
     headless:false,        // apply headless-false to all scripts (open browser for all)
     screenshot:"on",      // attach screenshot with report and save in the test-results folder
-    video:{              // attach video with report and save in the test-results folder
-      mode:'on'
+    video:'on',
+    launchOptions:        //For slow execution. mainly used in the case of debugging
+    {
+      slowMo:1000
     }
   },
   retries:2, //no of times execute test case again again if test got fail
